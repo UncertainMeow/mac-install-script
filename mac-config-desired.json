@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-19T03:11:06Z",
+    "generated_at": "2025-08-19T06:55:52Z",
     "hostname": "hume.local",
     "os_version": "15.6",
     "hardware": "MacBook Air"
@@ -133,7 +133,6 @@
     "TextExpander",
     "Microsoft Excel",
     "Rectangle Pro",
-    "UTM",
     "zoom.us",
     "RustDesk",
     "XPipe",
@@ -174,11 +173,6 @@
       "name": "Microsoft Excel",
       "version": "16.100",
       "path": "/Applications/Microsoft Excel.app"
-    },
-    {
-      "name": "UTM",
-      "version": "4.6.5",
-      "path": "/Applications/UTM.app"
     }
   ],
   "system_preferences": {},
@@ -188,7 +182,8 @@
     ".tmux.conf"
   ],
   "ssh_config": {
-    "config_exists": "false",
+    "config_exists": "true",
+    "hosts": "10.203.3.165,*",
     "public_keys_count": "0"
   },
   "git_config": {
@@ -196,7 +191,10 @@
     "user_email": "kmalst@gmail.com"
   },
   "mounted_drives": [
-    "Macintosh HD"
+    "assets",
+    "Macintosh HD",
+    "personal_folder",
+    "stuffs"
   ],
   "network_locations": [
     "Automatic"
