@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./audit.sh)",
+      "Bash(chmod:*)",
+      "Bash(./file-audit.sh)",
+      "Bash(./install.sh:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,79 @@
+# SECURITY: Files containing sensitive data - NEVER COMMIT
+file-locations.json
+file-locations.json.*
+*file-locations*
+*.bak
+*.backup
+
+# SECURITY: Personal configuration files that may contain secrets
+mac-config-personal.json
+*-personal.json
+*-private.json
+*-secrets.json
+
+# SECURITY: SSH keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+id_ecdsa*
+
+# SECURITY: Environment files
+.env
+.env.*
+!.env.example
+
+# SECURITY: Logs that might contain sensitive data
+*.log
+logs/
+audit-*.txt
+
+# SECURITY: Temporary files and caches
+.DS_Store
+*.tmp
+*.temp
+.cache/
+temp/
+
+# SECURITY: macOS system files
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+
+# SECURITY: Archives that might contain personal data
+*.zip
+*.tar.gz
+*.dmg
+personal-*
+backup-*
+
+# SECURITY: Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# SECURITY: Editor and IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# SECURITY: Base config contains current system state - personal info
+mac-config-base.json
+mac-config-base.json.*
+
+# SECURITY: Legacy config file - may contain personal info
+mac-config.json
+
+# Allow these safe configuration files
+!mac-config-desired.json
+!.gitignore
+!README.md
+!CLAUDE.md
+!*.sh
+!lib/
