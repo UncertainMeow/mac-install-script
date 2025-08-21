@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-08-19T06:55:52Z",
+    "generated_at": "2025-08-21T06:07:51Z",
     "hostname": "hume.local",
     "os_version": "15.6",
     "hardware": "MacBook Air"
@@ -8,6 +8,7 @@
   "homebrew": {
     "formulae": [
       "ansible",
+      "asciinema",
       "bash",
       "bat",
       "bottom",
@@ -63,6 +64,7 @@
       "libzip",
       "lsd",
       "lz4",
+      "mas",
       "mcfly",
       "mpdecimal",
       "ncurses",
@@ -81,6 +83,7 @@
       "simdjson",
       "softnet",
       "sqlite",
+      "sshpass",
       "tart",
       "terraform",
       "tldr",
@@ -109,15 +112,48 @@
     ],
     "services": []
   },
-  "mac_app_store": [],
+  "mac_app_store": [
+    {
+      "id": "937984704",
+      "name": "  Amphetamine           (5.3.2)"
+    },
+    {
+      "id": "486626129",
+      "name": "  Folder Tidy           (2.9.6)"
+    },
+    {
+      "id": "430798174",
+      "name": "  HazeOver              (1.9.6)"
+    },
+    {
+      "id": "462058435",
+      "name": "  Microsoft Excel       (16.100)"
+    },
+    {
+      "id": "462062816",
+      "name": "  Microsoft PowerPoint  (16.100)"
+    },
+    {
+      "id": "1503446680",
+      "name": " PastePal              (2.18.1)"
+    },
+    {
+      "id": "585829637",
+      "name": "  Todoist               (9.18.0)"
+    },
+    {
+      "id": "1295203466",
+      "name": " Windows App           (11.1.9)"
+    }
+  ],
   "applications": [
     "SF Symbols beta",
     "Visual Studio Code",
-    "WindowKeys",
     "1Password",
     "Todoist",
     "Kiro",
     "Reader",
+    "Elgato Wave Link",
     "Folder Tidy",
     "Google Chrome",
     "Insta360 Link Controller",
@@ -126,6 +162,7 @@
     "Windows App",
     "Spotify",
     "Zoom",
+    "Elgato Stream Deck",
     "Google Drive",
     "Obsidian",
     "balenaEtcher",
@@ -142,11 +179,13 @@
     "Brave Browser",
     "Google Slides",
     "logioptionsplus",
+    "Zim",
     "Comet",
     "Ghostty",
     "UGREEN NAS",
     "Setapp",
     "AppCleaner",
+    "Dropzone 4",
     "Alfred 5",
     "Microsoft PowerPoint",
     "Tailscale",
@@ -166,7 +205,7 @@
     },
     {
       "name": "Google Chrome",
-      "version": "139.0.7258.128",
+      "version": "139.0.7258.129",
       "path": "/Applications/Google Chrome.app"
     },
     {
@@ -179,22 +218,21 @@
   "dotfiles": [
     ".zshrc",
     ".gitconfig",
+    ".ssh/config",
     ".tmux.conf"
   ],
   "ssh_config": {
     "config_exists": "true",
-    "hosts": "10.203.3.165,*",
-    "public_keys_count": "0"
+    "hosts": "lan-nas,lan-socrates,*",
+    "public_keys_count": "2"
   },
   "git_config": {
     "user_name": "Kellen Malstrom",
     "user_email": "kmalst@gmail.com"
   },
   "mounted_drives": [
-    "assets",
-    "Macintosh HD",
-    "personal_folder",
-    "stuffs"
+    "com.apple.TimeMachine.localsnapshots",
+    "Macintosh HD"
   ],
   "network_locations": [
     "Automatic"
